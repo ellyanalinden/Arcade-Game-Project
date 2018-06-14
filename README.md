@@ -24,3 +24,4 @@ The game is written in JavaScript. I used starter code provided by Udacity. Then
 4. I created alert, if player reaches water (wins). Then, the game will reset.
 
 How to run
+https://ellyanalinden.github.io/Arcade-Game-Udacity/
