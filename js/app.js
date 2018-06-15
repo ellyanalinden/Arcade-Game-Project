@@ -28,11 +28,11 @@ Enemy.prototype.update = function(dt) {
     }
 
     //Player-Enemy collision.
-    //If the player is within 40px of an enemy, reset game.
-    if (player.x >= this.x - 40 &&
-        player.x <= this.x + 40 &&
-        player.y >= this.y - 40 &&
-        player.y <= this.y + 40){
+    //If the player is within 45px of an enemy, reset game.
+    if (player.x >= this.x - 45 &&
+        player.x <= this.x + 45 &&
+        player.y >= this.y - 45 &&
+        player.y <= this.y + 45){
           player.reset();
         }
 };
@@ -58,12 +58,12 @@ var Player = function(x,y) {
 };
 
 Player.prototype.update = function(){
-  //Player wins if it reaches the water
-  //Something happens when player wins
-  if (this.y < 0) {
-  alert('Hooray...You won!');
-  player.reset();
-  }
+    //Player wins if it reaches the water
+    //Something happens when player wins
+    if (this.y < 0) {
+    alert('Hooray...You won!');
+    player.reset();
+    }
 };
 
 Player.prototype.render = function() {
@@ -96,7 +96,6 @@ var player = new Player();
 
 //Reset Player
 Player.prototype.reset = function(){
-  "use strict";
   this.x = 200;
   this.y = 300;
 };
