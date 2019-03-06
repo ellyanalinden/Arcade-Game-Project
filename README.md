@@ -26,7 +26,9 @@ The game is written in JavaScript. I used starter code provided by Udacity. Then
 ## How to run
 Play online:
 https://ellyanalinden.github.io/Arcade-Game-Project/
-
+<br />
+![arcade_game](https://user-images.githubusercontent.com/39072490/53905188-1b630880-4005-11e9-8748-a4fb1c4cde59.jpg)
+<br />
 Run application locally:
 * Clone the repository using git or download the file
 * Navigate where you unzipped or cloned the repository
