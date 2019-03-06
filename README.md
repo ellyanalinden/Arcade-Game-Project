@@ -31,3 +31,5 @@ Run application locally:
 * Clone the repository using git or download the file
 * Navigate where you unzipped or cloned the repository
 * Open index HTML in your browser
+
+![arcade_game](https://user-images.githubusercontent.com/39072490/53905188-1b630880-4005-11e9-8748-a4fb1c4cde59.jpg)
